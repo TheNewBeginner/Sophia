@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    color: white !important;
+    margin: 15px 15px;
+}
+.ui.secondary.pointing.menu .header.item {
+    color: white !important;
+}
+
+.img_wrap {   
+/* background-image: url("../img/background.jpg"); */
+/* flex: 1; */
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0;
+min-height: 100vh;
+height: 100%;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.ui.search {
+    font-size: 20px !important;
+    margin-top: 50px;
+    box-shadow: 0 3px 12px -2px rgba(0, 0, 0, 0.18);
+}
+.ui.input > input {
+    width: 600px !important;
+}
+
+.ui.secondary.pointing.menu .item {color: white !important;}
+.ui.secondary.pointing.menu .item:hover {color: rgb(233, 48, 15);}
+
+
+
+.ui.secondary.pointing.menu .active.item {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: 700;
+    font-size: 18px !important;
+    color: white !important;
+}
+.ui.grid {
+    display: -ms-flexbox;
+    display: block !important;
+    text-align: center !important;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding: 0;
+}
+
+.ui.medium.image, .ui.medium.images .image, .ui.medium.images img, .ui.medium.images svg {
+    width: 300px;
+    height: auto;
+    font-size: 1rem;
+    background-color: white;
+    margin-top: 60px; 
+    margin-right: 30px;
+}
+.block_name { 
+    background-color: transparent;
+    padding: 10px, 20px;
+    color: white;
+    font-size: 20px;
+}
+.rounded-circle {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: 85px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 3px 12px -2px rgba(0, 0, 0, 0.18);
+    transition: transform .2s;
+}
+
+.rounded-circle:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.Center-Container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .Absolute-Center {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: solid black;
+  }
+
+.power_motto {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 10px;
+    position: absolute;
+    left: 32%;
+    box-shadow: 0 3px 12px -2px rgba(0, 0, 0, 0.18) !important;
+}
+ 
+
